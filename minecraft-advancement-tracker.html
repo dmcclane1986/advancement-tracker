@@ -191,8 +191,8 @@
         
         <div class="player-select">
             <label for="playerSelect">Select Player:</label>
-            <select id="playerSelect">
-                <option value="">-- Choose a player --</option>
+            <select id="playerSelect" disabled>
+                <option value="">-- Loading data... --</option>
                 <option value="david">David</option>
                 <option value="lawrence">Lawrence</option>
             </select>
@@ -206,43 +206,74 @@
     </div>
 
     <script>
-        const davidData = {"minecraft:recipes/decorations/crafting_table":{"criteria":{"unlock_right_away":"2025-10-07 00:32:34 +0000"},"done":true},"minecraft:adventure/adventuring_time":{"criteria":{"minecraft:cold_ocean":"2025-11-21 23:13:45 +0000","minecraft:snowy_slopes":"2025-11-24 04:21:36 +0000","minecraft:old_growth_pine_taiga":"2025-11-26 04:12:06 +0000","minecraft:forest":"2025-10-07 23:18:12 +0000","minecraft:taiga":"2025-11-18 03:57:19 +0000","minecraft:deep_ocean":"2025-10-13 21:00:35 +0000","minecraft:lush_caves":"2025-11-26 03:13:11 +0000","minecraft:desert":"2025-11-25 01:25:25 +0000","minecraft:frozen_river":"2025-11-21 23:23:28 +0000","minecraft:windswept_forest":"2025-11-23 21:00:21 +0000","minecraft:ocean":"2025-10-13 20:55:42 +0000","minecraft:jungle":"2025-11-02 22:05:29 +0000","minecraft:cherry_grove":"2025-10-07 23:29:42 +0000","minecraft:sunflower_plains":"2025-10-09 19:50:07 +0000","minecraft:birch_forest":"2025-11-21 23:11:51 +0000","minecraft:windswept_hills":"2025-10-13 20:48:44 +0000","minecraft:old_growth_spruce_taiga":"2025-11-26 04:12:13 +0000","minecraft:bamboo_jungle":"2025-11-02 22:01:22 +0000","minecraft:wooded_badlands":"2025-11-25 01:25:17 +0000","minecraft:windswept_savanna":"2025-10-13 20:55:33 +0000","minecraft:warm_ocean":"2025-11-25 01:26:32 +0000","minecraft:deep_lukewarm_ocean":"2025-11-02 22:00:58 +0000","minecraft:badlands":"2025-11-25 01:27:09 +0000","minecraft:flower_forest":"2025-10-07 23:07:12 +0000","minecraft:beach":"2025-10-13 20:55:21 +0000","minecraft:dark_forest":"2025-11-21 23:12:10 +0000","minecraft:mangrove_swamp":"2025-11-23 21:01:42 +0000","minecraft:sparse_jungle":"2025-11-24 04:35:00 +0000","minecraft:river":"2025-10-07 23:11:02 +0000","minecraft:lukewarm_ocean":"2025-11-02 22:01:09 +0000","minecraft:stony_shore":"2025-11-21 23:13:48 +0000","minecraft:snowy_plains":"2025-11-21 23:21:56 +0000","minecraft:dripstone_caves":"2025-10-08 00:26:51 +0000","minecraft:snowy_taiga":"2025-11-21 23:27:19 +0000","minecraft:frozen_peaks":"2025-10-10 01:36:43 +0000","minecraft:old_growth_birch_forest":"2025-10-13 21:15:30 +0000","minecraft:swamp":"2025-10-13 20:44:57 +0000","minecraft:grove":"2025-11-21 23:13:56 +0000","minecraft:meadow":"2025-10-09 22:36:58 +0000","minecraft:windswept_gravelly_hills":"2025-11-18 03:26:54 +0000","minecraft:plains":"2025-10-07 00:32:35 +0000"},"done":false},"minecraft:adventure/kill_all_mobs":{"criteria":{"minecraft:pillager":"2025-10-08 02:36:51 +0000","minecraft:blaze":"2025-10-09 16:54:20 +0000","minecraft:skeleton":"2025-10-07 23:31:33 +0000","minecraft:elder_guardian":"2025-10-13 21:04:19 +0000","minecraft:bogged":"2025-11-18 03:12:22 +0000","minecraft:ghast":"2025-10-25 20:07:34 +0000","minecraft:hoglin":"2025-11-16 01:04:05 +0000","minecraft:guardian":"2025-10-13 21:04:29 +0000","minecraft:breeze":"2025-10-25 22:37:21 +0000","minecraft:magma_cube":"2025-10-09 16:58:30 +0000","minecraft:spider":"2025-10-08 01:17:54 +0000","minecraft:piglin_brute":"2025-11-16 01:05:39 +0000","minecraft:creeper":"2025-10-07 23:28:59 +0000","minecraft:slime":"2025-11-18 01:58:20 +0000","minecraft:phantom":"2025-11-02 00:02:18 +0000","minecraft:zombified_piglin":"2025-10-10 15:34:22 +0000","minecraft:witch":"2025-11-02 00:50:01 +0000","minecraft:wither_skeleton":"2025-10-09 16:58:19 +0000","minecraft:husk":"2025-11-26 03:35:22 +0000","minecraft:shulker":"2025-11-01 21:20:29 +0000","minecraft:cave_spider":"2025-10-25 22:31:14 +0000","minecraft:piglin":"2025-10-27 23:00:41 +0000","minecraft:enderman":"2025-10-09 17:18:41 +0000","minecraft:silverfish":"2025-10-25 23:23:10 +0000","minecraft:endermite":"2025-11-02 20:55:13 +0000","minecraft:zombie":"2025-10-07 23:30:40 +0000","minecraft:drowned":"2025-10-13 20:52:17 +0000","minecraft:zombie_villager":"2025-10-09 21:10:09 +0000"},"done":false},"minecraft:husbandry/bred_all_animals":{"criteria":{"minecraft:cow":"2025-10-09 13:34:34 +0000","minecraft:goat":"2025-11-26 01:19:51 +0000","minecraft:camel":"2025-11-26 03:29:08 +0000","minecraft:chicken":"2025-10-09 20:15:45 +0000","minecraft:pig":"2025-10-08 02:40:49 +0000","minecraft:panda":"2025-11-26 02:23:47 +0000","minecraft:frog":"2025-11-24 03:36:12 +0000","minecraft:turtle":"2025-11-26 02:27:27 +0000","minecraft:sheep":"2025-11-25 01:14:42 +0000","minecraft:rabbit":"2025-11-26 02:42:55 +0000"},"done":false}};
-
-        const lawrenceData = {"minecraft:recipes/decorations/crafting_table":{"criteria":{"unlock_right_away":"2025-10-07 23:06:34 +0000"},"done":true},"minecraft:adventure/adventuring_time":{"criteria":{"minecraft:snowy_slopes":"2025-11-26 01:15:20 +0000","minecraft:forest":"2025-10-07 23:57:06 +0000","minecraft:taiga":"2025-11-26 04:12:17 +0000","minecraft:lush_caves":"2025-11-26 03:14:58 +0000","minecraft:desert":"2025-11-26 01:47:17 +0000","minecraft:frozen_river":"2025-11-26 04:13:02 +0000","minecraft:windswept_forest":"2025-11-26 02:14:24 +0000","minecraft:jungle":"2025-11-26 01:47:20 +0000","minecraft:cherry_grove":"2025-10-07 23:12:33 +0000","minecraft:sunflower_plains":"2025-10-09 21:10:15 +0000","minecraft:wooded_badlands":"2025-11-26 02:19:26 +0000","minecraft:bamboo_jungle":"2025-11-26 01:55:00 +0000","minecraft:warm_ocean":"2025-11-26 02:17:33 +0000","minecraft:badlands":"2025-11-26 02:19:50 +0000","minecraft:flower_forest":"2025-10-07 23:07:04 +0000","minecraft:savanna_plateau":"2025-11-26 02:20:41 +0000","minecraft:beach":"2025-11-26 01:58:58 +0000","minecraft:dark_forest":"2025-11-26 02:14:02 +0000","minecraft:stony_peaks":"2025-11-26 02:20:42 +0000","minecraft:mangrove_swamp":"2025-11-26 02:14:48 +0000","minecraft:sparse_jungle":"2025-11-26 01:56:34 +0000","minecraft:river":"2025-10-07 23:10:29 +0000","minecraft:lukewarm_ocean":"2025-11-26 02:17:24 +0000","minecraft:stony_shore":"2025-11-26 01:46:56 +0000","minecraft:dripstone_caves":"2025-10-09 21:10:55 +0000","minecraft:snowy_taiga":"2025-11-26 04:13:05 +0000","minecraft:frozen_peaks":"2025-11-26 01:23:50 +0000","minecraft:grove":"2025-11-26 01:23:41 +0000","minecraft:swamp":"2025-11-26 02:14:35 +0000","minecraft:meadow":"2025-11-26 01:23:28 +0000","minecraft:savanna":"2025-11-26 02:20:23 +0000","minecraft:plains":"2025-10-07 23:06:35 +0000"},"done":false},"minecraft:adventure/kill_all_mobs":{"criteria":{"minecraft:pillager":"2025-10-09 21:38:19 +0000","minecraft:blaze":"2025-10-09 22:06:16 +0000","minecraft:skeleton":"2025-10-09 21:11:34 +0000","minecraft:phantom":"2025-11-01 23:47:35 +0000","minecraft:zombified_piglin":"2025-10-10 01:16:27 +0000","minecraft:witch":"2025-11-26 01:37:58 +0000","minecraft:wither_skeleton":"2025-10-09 22:00:33 +0000","minecraft:husk":"2025-11-26 03:35:52 +0000","minecraft:ghast":"2025-11-16 01:02:20 +0000","minecraft:ender_dragon":"2025-11-01 20:53:03 +0000","minecraft:shulker":"2025-11-01 21:21:10 +0000","minecraft:cave_spider":"2025-10-25 22:31:15 +0000","minecraft:piglin":"2025-11-16 00:58:46 +0000","minecraft:breeze":"2025-10-25 22:36:43 +0000","minecraft:silverfish":"2025-10-25 23:22:45 +0000","minecraft:enderman":"2025-11-01 20:48:39 +0000","minecraft:endermite":"2025-11-01 21:35:46 +0000","minecraft:spider":"2025-10-09 21:20:57 +0000","minecraft:piglin_brute":"2025-11-16 01:05:01 +0000","minecraft:zombie":"2025-10-08 03:04:41 +0000","minecraft:creeper":"2025-10-09 21:10:47 +0000","minecraft:drowned":"2025-11-01 23:08:38 +0000"},"done":false},"minecraft:husbandry/bred_all_animals":{"criteria":{"minecraft:cow":"2025-10-07 23:45:17 +0000","minecraft:goat":"2025-11-26 01:29:02 +0000","minecraft:camel":"2025-11-26 03:23:39 +0000","minecraft:chicken":"2025-10-07 23:54:17 +0000","minecraft:pig":"2025-10-07 23:54:29 +0000","minecraft:panda":"2025-11-26 02:06:08 +0000","minecraft:turtle":"2025-11-26 02:24:39 +0000","minecraft:sheep":"2025-10-07 23:45:20 +0000","minecraft:rabbit":"2025-11-26 02:41:56 +0000"},"done":false},"minecraft:husbandry/whole_pack":{"criteria":{"minecraft:woods":"2025-11-26 05:21:14 +0000"},"done":false}};
-
-        const advancementInfo = {
-            "minecraft:adventure/adventuring_time": {
-                name: "Adventuring Time",
-                description: "Discover every biome",
-                requiredBiomes: ["minecraft:plains","minecraft:forest","minecraft:flower_forest","minecraft:taiga","minecraft:old_growth_pine_taiga","minecraft:old_growth_spruce_taiga","minecraft:birch_forest","minecraft:old_growth_birch_forest","minecraft:dark_forest","minecraft:jungle","minecraft:sparse_jungle","minecraft:bamboo_jungle","minecraft:desert","minecraft:badlands","minecraft:wooded_badlands","minecraft:meadow","minecraft:cherry_grove","minecraft:grove","minecraft:snowy_slopes","minecraft:frozen_peaks","minecraft:snowy_plains","minecraft:snowy_taiga","minecraft:windswept_hills","minecraft:windswept_gravelly_hills","minecraft:windswept_forest","minecraft:windswept_savanna","minecraft:swamp","minecraft:mangrove_swamp","minecraft:beach","minecraft:stony_shore","minecraft:river","minecraft:frozen_river","minecraft:ocean","minecraft:warm_ocean","minecraft:lukewarm_ocean","minecraft:deep_lukewarm_ocean","minecraft:cold_ocean","minecraft:deep_ocean","minecraft:dripstone_caves","minecraft:lush_caves","minecraft:savanna","minecraft:savanna_plateau","minecraft:stony_peaks"]
-            },
-            "minecraft:adventure/kill_all_mobs": {
-                name: "Monsters Hunted",
-                description: "Kill one of every hostile monster",
-                requiredMobs: ["minecraft:blaze","minecraft:breeze","minecraft:cave_spider","minecraft:creeper","minecraft:drowned","minecraft:elder_guardian","minecraft:ender_dragon","minecraft:enderman","minecraft:endermite","minecraft:evoker","minecraft:ghast","minecraft:guardian","minecraft:hoglin","minecraft:husk","minecraft:magma_cube","minecraft:phantom","minecraft:piglin","minecraft:piglin_brute","minecraft:pillager","minecraft:ravager","minecraft:shulker","minecraft:silverfish","minecraft:skeleton","minecraft:slime","minecraft:spider","minecraft:stray","minecraft:vex","minecraft:vindicator","minecraft:warden","minecraft:witch","minecraft:wither_skeleton","minecraft:zoglin","minecraft:zombie","minecraft:zombie_villager","minecraft:zombified_piglin","minecraft:bogged"]
-            },
-            "minecraft:husbandry/bred_all_animals": {
-                name: "Two by Two",
-                description: "Breed all the animals",
-                requiredAnimals: ["minecraft:axolotl","minecraft:bee","minecraft:camel","minecraft:cat","minecraft:chicken","minecraft:cow","minecraft:donkey","minecraft:fox","minecraft:frog","minecraft:goat","minecraft:hoglin","minecraft:horse","minecraft:llama","minecraft:mooshroom","minecraft:mule","minecraft:ocelot","minecraft:panda","minecraft:pig","minecraft:rabbit","minecraft:sheep","minecraft:strider","minecraft:trader_llama","minecraft:turtle","minecraft:wolf","minecraft:sniffer"]
-            },
-            "minecraft:husbandry/whole_pack": {
-                name: "The Whole Pack",
-                description: "Tame one of each wolf variant",
-                requiredWolves: ["minecraft:pale","minecraft:spotted","minecraft:snowy","minecraft:black","minecraft:ashen","minecraft:rusty","minecraft:woods","minecraft:chestnut","minecraft:striped"]
-            }
-        };
-
         let playerData = null;
+        let allAdvancements = {};
         let hiddenAdvancements = new Set();
         let checkedItems = {};
+        let isDataLoaded = false;
+
+        // Load all JSON files
+        Promise.all([
+            fetch('minecraft_advancements.json').then(r => r.json()),
+            fetch('David.json').then(r => r.json()),
+            fetch('Lawrence.json').then(r => r.json())
+        ]).then(([advancementsData, davidData, lawrenceData]) => {
+            // Store player data
+            window.davidData = davidData;
+            window.lawrenceData = lawrenceData;
+            
+            // Process minecraft_advancements.json to create a lookup
+            allAdvancements = processAdvancementsData(advancementsData);
+            isDataLoaded = true;
+            
+            // Enable the select dropdown
+            document.getElementById('playerSelect').disabled = false;
+        }).catch(error => {
+            console.error('Error loading data:', error);
+            document.getElementById('advancementsList').innerHTML = 
+                '<div class="no-advancements">❌ Error loading advancement data</div>';
+        });
+
+        function processAdvancementsData(data) {
+            const advancements = {};
+            
+            // Process each tab
+            for (const [tabName, tabAdvancements] of Object.entries(data)) {
+                tabAdvancements.forEach(advancement => {
+                    // Create a key from the advancement name
+                    // This is a simplified mapping - you may need to adjust based on actual keys
+                    const key = nameToKey(advancement.name, tabName);
+                    advancements[key] = {
+                        name: advancement.name,
+                        description: advancement.description,
+                        requirement: advancement.requirement,
+                        tab: tabName.replace('_tab', ''),
+                        type: advancement.type || 'task',
+                        hidden: advancement.hidden || false
+                    };
+                });
+            }
+            
+            return advancements;
+        }
+
+        function nameToKey(name, tabName) {
+            // Convert advancement name to minecraft key format
+            // This creates a standardized key based on the tab and name
+            const tab = tabName.replace('_tab', '');
+            const simpleName = name.toLowerCase()
+                .replace(/[^a-z0-9\s]/g, '')
+                .replace(/\s+/g, '_');
+            
+            return `minecraft:${tab}/${simpleName}`;
+        }
 
         document.getElementById('playerSelect').addEventListener('change', function() {
             const player = this.value;
             if (player === 'david') {
-                playerData = davidData;
+                playerData = window.davidData;
             } else if (player === 'lawrence') {
-                playerData = lawrenceData;
+                playerData = window.lawrenceData;
             } else {
                 playerData = null;
             }
@@ -254,75 +285,113 @@
             const statsContainer = document.getElementById('stats');
             const statsText = document.getElementById('statsText');
             
+            if (!isDataLoaded) {
+                listContainer.innerHTML = '<div class="loading">Loading advancement data...</div>';
+                statsContainer.style.display = 'none';
+                return;
+            }
+            
             if (!playerData) {
                 listContainer.innerHTML = '<div class="loading">Please select a player</div>';
                 statsContainer.style.display = 'none';
                 return;
             }
 
+            // Find all incomplete advancements
             const incompleteAdvancements = [];
             
+            // Check each advancement key in the player data
             for (const [key, data] of Object.entries(playerData)) {
-                if (!data.done && advancementInfo[key] && !hiddenAdvancements.has(key)) {
-                    const info = advancementInfo[key];
-                    const completed = Object.keys(data.criteria);
-                    let required = [];
+                // Skip recipe advancements
+                if (key.includes('recipes/')) continue;
+                
+                // Check if advancement is not done and not hidden
+                if (!data.done && !hiddenAdvancements.has(key)) {
+                    const criteria = Object.keys(data.criteria || {});
+                    const criteriaCount = criteria.length;
                     
-                    if (info.requiredBiomes) required = info.requiredBiomes;
-                    else if (info.requiredMobs) required = info.requiredMobs;
-                    else if (info.requiredAnimals) required = info.requiredAnimals;
-                    else if (info.requiredWolves) required = info.requiredWolves;
-                    
-                    const missing = required.filter(item => !completed.includes(item));
+                    // Try to find advancement info from our loaded data
+                    let advInfo = findAdvancementInfo(key, allAdvancements);
                     
                     incompleteAdvancements.push({
                         key,
-                        info,
-                        completed: completed.length,
-                        total: required.length,
-                        missing
+                        name: advInfo.name || formatKeyToName(key),
+                        description: advInfo.description || 'Complete this advancement',
+                        tab: advInfo.tab || 'unknown',
+                        criteria: criteria,
+                        criteriaCount: criteriaCount,
+                        type: advInfo.type || 'task'
                     });
                 }
             }
 
             if (incompleteAdvancements.length === 0) {
-                listContainer.innerHTML = '<div class="no-advancements">🎉 All tracked advancements completed!</div>';
+                listContainer.innerHTML = '<div class="no-advancements">🎉 All advancements completed!</div>';
                 statsContainer.style.display = 'none';
                 return;
             }
 
+            // Group by tab
+            const grouped = {};
+            incompleteAdvancements.forEach(adv => {
+                if (!grouped[adv.tab]) {
+                    grouped[adv.tab] = [];
+                }
+                grouped[adv.tab].push(adv);
+            });
+
             statsText.textContent = `${incompleteAdvancements.length} incomplete advancement${incompleteAdvancements.length !== 1 ? 's' : ''}`;
             statsContainer.style.display = 'block';
 
-            let html = '<div class="advancement-category"><div class="category-header">Incomplete Advancements</div>';
+            let html = '';
             
-            incompleteAdvancements.forEach(adv => {
-                const missingItemsHtml = adv.missing.map(item => {
-                    const itemKey = `${adv.key}:${item}`;
-                    const isChecked = checkedItems[itemKey] || false;
-                    const checkedClass = isChecked ? 'checked' : '';
-                    return `<span class="missing-item ${checkedClass}" data-advancement="${adv.key}" data-item="${item}">${item.replace('minecraft:', '')}</span>`;
-                }).join('');
-
-                const uncheckedCount = adv.missing.filter(item => !checkedItems[`${adv.key}:${item}`]).length;
-                const progressText = `Progress: ${adv.completed + (adv.missing.length - uncheckedCount)}/${adv.total} (${uncheckedCount} remaining)`;
-
-                html += `
-                    <div class="advancement-item" data-key="${adv.key}">
-                        <div class="advancement-name" style="cursor: pointer;">☐ ${adv.info.name}</div>
-                        <div class="advancement-description">${adv.info.description}</div>
-                        <div class="advancement-progress">${progressText}</div>
-                        <div class="missing-items">
-                            <div class="missing-items-title">Missing items (click to check off):</div>
-                            ${missingItemsHtml}
-                        </div>
-                    </div>
-                `;
+            // Sort tabs
+            const tabOrder = ['minecraft', 'adventure', 'nether', 'the_end', 'husbandry'];
+            const sortedTabs = Object.keys(grouped).sort((a, b) => {
+                const aIndex = tabOrder.indexOf(a);
+                const bIndex = tabOrder.indexOf(b);
+                if (aIndex === -1 && bIndex === -1) return 0;
+                if (aIndex === -1) return 1;
+                if (bIndex === -1) return -1;
+                return aIndex - bIndex;
             });
             
-            html += '</div>';
+            sortedTabs.forEach(tab => {
+                const advancements = grouped[tab];
+                html += `<div class="advancement-category">`;
+                html += `<div class="category-header">${formatTabName(tab)} (${advancements.length})</div>`;
+                
+                advancements.forEach(adv => {
+                    const typeIcon = adv.type === 'challenge' ? '⭐' : adv.type === 'goal' ? '🎯' : '📋';
+                    
+                    let criteriaHtml = '';
+                    if (adv.criteria.length > 0) {
+                        criteriaHtml = `
+                            <div class="missing-items">
+                                <div class="missing-items-title">Completed criteria (${adv.criteriaCount}):</div>
+                                ${adv.criteria.slice(0, 10).map(c => 
+                                    `<span class="missing-item" style="background-color: #1a3a1a; border-color: #2d5a2d;">${c.replace('minecraft:', '')}</span>`
+                                ).join('')}
+                                ${adv.criteria.length > 10 ? `<span class="missing-item">... and ${adv.criteria.length - 10} more</span>` : ''}
+                            </div>
+                        `;
+                    }
+
+                    html += `
+                        <div class="advancement-item" data-key="${adv.key}">
+                            <div class="advancement-name" style="cursor: pointer;">☐ ${typeIcon} ${adv.name}</div>
+                            <div class="advancement-description">${adv.description}</div>
+                            ${criteriaHtml}
+                        </div>
+                    `;
+                });
+                
+                html += '</div>';
+            });
+            
             listContainer.innerHTML = html;
 
+            // Add click handlers to hide advancements
             document.querySelectorAll('.advancement-item').forEach(item => {
                 const nameElement = item.querySelector('.advancement-name');
                 nameElement.addEventListener('click', function(e) {
@@ -333,23 +402,44 @@
                     displayAdvancements();
                 });
             });
+        }
 
-            document.querySelectorAll('.missing-item').forEach(item => {
-                item.addEventListener('click', function(e) {
-                    e.stopPropagation();
-                    const advKey = this.dataset.advancement;
-                    const itemName = this.dataset.item;
-                    const itemKey = `${advKey}:${itemName}`;
-                    
-                    if (checkedItems[itemKey]) {
-                        delete checkedItems[itemKey];
-                    } else {
-                        checkedItems[itemKey] = true;
-                    }
-                    
-                    displayAdvancements();
-                });
-            });
+        function findAdvancementInfo(key, allAdvancements) {
+            // Try direct match first
+            if (allAdvancements[key]) {
+                return allAdvancements[key];
+            }
+            
+            // Try to find by matching the key pattern
+            for (const [advKey, advInfo] of Object.entries(allAdvancements)) {
+                if (key === advKey) {
+                    return advInfo;
+                }
+            }
+            
+            // Return default if not found
+            return {
+                name: formatKeyToName(key),
+                description: 'Complete this advancement',
+                tab: key.split('/')[0].replace('minecraft:', '') || 'unknown',
+                type: 'task'
+            };
+        }
+
+        function formatKeyToName(key) {
+            // Convert key like "minecraft:story/mine_stone" to "Mine Stone"
+            const parts = key.split('/');
+            const name = parts[parts.length - 1];
+            return name.split('_')
+                .map(word => word.charAt(0).toUpperCase() + word.slice(1))
+                .join(' ');
+        }
+
+        function formatTabName(tab) {
+            // Format tab name for display
+            return tab.split('_')
+                .map(word => word.charAt(0).toUpperCase() + word.slice(1))
+                .join(' ');
         }
 
         displayAdvancements();
