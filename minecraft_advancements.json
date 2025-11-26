@@ -310,11 +310,6 @@
       "requirement": "Take an item from a villager or wandering trader's trading output slot"
     },
     {
-      "name": "Smithing with Style",
-      "description": "Apply these smithing templates at least once: Spire, Snout, Rib, Ward, Silence, Vex, Tide, Wayfinder",
-      "requirement": "Apply any armor trim pattern"
-    },
-    {
       "name": "Sticky Situation",
       "description": "Jump into a Honey Block to break your fall",
       "requirement": "Collide with a Honey Block to break a fall"
@@ -477,6 +472,59 @@
       "requirement": "Hit a target block from 30+ meters away",
       "type": "challenge",
       "experience": 50
+    },
+    {
+      "name": "Minecraft: Trial(s) Edition",
+      "description": "Step foot in a Trial Chamber",
+      "requirement": "Enter a trial chamber"
+    },
+    {
+      "name": "Under Lock and Key",
+      "description": "Unlock a Vault using a Trial Key",
+      "requirement": "Use a trial key on a vault"
+    },
+    {
+      "name": "Blowback",
+      "description": "Kill a Breeze with a deflected Wind Charge",
+      "requirement": "Kill a breeze by deflecting its wind charge back at it",
+      "type": "challenge",
+      "experience": 40
+    },
+    {
+      "name": "Who Needs Rockets?",
+      "description": "Use a Wind Charge to launch yourself upward at least 8 blocks",
+      "requirement": "Launch yourself 8+ blocks upward with a wind charge",
+      "type": "goal",
+      "experience": 30
+    },
+    {
+      "name": "Lighten Up",
+      "description": "Scrape a Copper Bulb with an Axe to make it brighter",
+      "requirement": "Scrape oxidation off a copper bulb with an axe"
+    },
+    {
+      "name": "Revaulting",
+      "description": "Unlock an Ominous Vault with an Ominous Trial Key",
+      "requirement": "Use an ominous trial key on an ominous vault"
+    },
+    {
+      "name": "Crafters Crafting Crafters",
+      "description": "Be near a Crafter when it crafts a Crafter",
+      "requirement": "Be within 5 blocks of a crafter when it crafts another crafter"
+    },
+    {
+      "name": "Over-Overkill",
+      "description": "Deal 50 hearts of damage in a single hit using a Mace",
+      "requirement": "Deal 100+ points of damage in a single mace attack",
+      "type": "challenge",
+      "experience": 50
+    },
+    {
+      "name": "Overkill",
+      "description": "Deal 9 hearts of damage in a single hit",
+      "requirement": "Deal 18 or more points of damage in a single hit",
+      "type": "challenge",
+      "experience": 30
     }
   ],
   "husbandry_tab": [
@@ -568,6 +616,13 @@
       "experience": 50
     },
     {
+      "name": "The Whole Pack",
+      "description": "Tame all Dog variants!",
+      "requirement": "Tame all 9 wolf variants",
+      "type": "challenge",
+      "experience": 50
+    },
+    {
       "name": "Tactical Fishing",
       "description": "Catch a fish... without a fishing rod!",
       "requirement": "Use a water bucket on any fish mob"
@@ -624,6 +679,21 @@
       "name": "The Healing Power of Friendship!",
       "description": "Team up with an axolotl and win a fight",
       "requirement": "Get a Regeneration effect from helping an axolotl kill a mob"
+    },
+    {
+      "name": "Good as New",
+      "description": "Repair a damaged Wolf Armor using Armadillo Scutes",
+      "requirement": "Repair wolf armor with armadillo scutes"
+    },
+    {
+      "name": "Shear Brilliance",
+      "description": "Remove Wolf Armor from a Wolf using Shears",
+      "requirement": "Use shears to remove wolf armor from a tamed wolf"
+    },
+    {
+      "name": "Isn't It Scute?",
+      "description": "Get Armadillo Scutes from an Armadillo using a Brush",
+      "requirement": "Use a brush on an armadillo to get scutes"
     }
   ]
 }
