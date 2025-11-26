@@ -1,0 +1,629 @@
+{
+  "minecraft_tab": [
+    {
+      "name": "Minecraft",
+      "description": "The heart and story of the game",
+      "requirement": "Have a crafting table in your inventory"
+    },
+    {
+      "name": "Stone Age",
+      "description": "Mine stone with your new pickaxe",
+      "requirement": "Have any stone_tool_materials item in your inventory"
+    },
+    {
+      "name": "Getting an Upgrade",
+      "description": "Construct a better pickaxe",
+      "requirement": "Have a stone pickaxe in your inventory"
+    },
+    {
+      "name": "Acquire Hardware",
+      "description": "Smelt an iron ingot",
+      "requirement": "Have an iron ingot in your inventory"
+    },
+    {
+      "name": "Suit Up",
+      "description": "Protect yourself with a piece of iron armor",
+      "requirement": "Have any piece of armor in your inventory"
+    },
+    {
+      "name": "Hot Stuff",
+      "description": "Fill a bucket with lava",
+      "requirement": "Have a lava bucket in your inventory"
+    },
+    {
+      "name": "Isn't It Iron Pick",
+      "description": "Upgrade your pickaxe",
+      "requirement": "Have an iron pickaxe in your inventory"
+    },
+    {
+      "name": "Not Today, Thank You",
+      "description": "Deflect a projectile with a shield",
+      "requirement": "Successfully deflect a projectile with a shield"
+    },
+    {
+      "name": "Ice Bucket Challenge",
+      "description": "Obtain a block of obsidian",
+      "requirement": "Have obsidian in your inventory"
+    },
+    {
+      "name": "Diamonds!",
+      "description": "Acquire diamonds",
+      "requirement": "Have a diamond in your inventory"
+    },
+    {
+      "name": "We Need to Go Deeper",
+      "description": "Build, light and enter a Nether Portal",
+      "requirement": "Enter the Nether dimension"
+    },
+    {
+      "name": "Cover Me With Diamonds",
+      "description": "Diamond armor saves lives",
+      "requirement": "Have all pieces of diamond armor in your inventory"
+    },
+    {
+      "name": "Enchanter",
+      "description": "Enchant an item at an Enchanting Table",
+      "requirement": "Use an enchanting table, then apply an enchantment"
+    },
+    {
+      "name": "Zombie Doctor",
+      "description": "Weaken and then cure a Zombie Villager",
+      "requirement": "Feed a golden apple to a zombie villager under the Weakness effect until it converts into a villager"
+    },
+    {
+      "name": "Eye Spy",
+      "description": "Follow an Eye of Ender",
+      "requirement": "Enter a stronghold"
+    },
+    {
+      "name": "The End?",
+      "description": "Enter the End Portal",
+      "requirement": "Enter the End dimension"
+    }
+  ],
+  "nether_tab": [
+    {
+      "name": "Nether",
+      "description": "Bring summer clothes",
+      "requirement": "Enter the Nether dimension"
+    },
+    {
+      "name": "Return to Sender",
+      "description": "Destroy a Ghast with a fireball",
+      "requirement": "Kill a Ghast with its own fireball",
+      "type": "goal",
+      "experience": 50
+    },
+    {
+      "name": "Those Were the Days",
+      "description": "Enter a Bastion Remnant",
+      "requirement": "Enter a bastion remnant"
+    },
+    {
+      "name": "Hidden in the Depths",
+      "description": "Obtain Ancient Debris",
+      "requirement": "Have ancient debris in your inventory"
+    },
+    {
+      "name": "Subspace Bubble",
+      "description": "Use the Nether to travel 7 km in the Overworld",
+      "requirement": "Travel between 2 points in the Overworld with 7000 blocks horizontal distance via the Nether (875 blocks in Nether)",
+      "type": "challenge",
+      "experience": 100
+    },
+    {
+      "name": "A Terrible Fortress",
+      "description": "Break your way into a Nether Fortress",
+      "requirement": "Enter a Nether Fortress"
+    },
+    {
+      "name": "Who is Cutting Onions?",
+      "description": "Obtain Crying Obsidian",
+      "requirement": "Have Crying Obsidian in your inventory"
+    },
+    {
+      "name": "Oh Shiny",
+      "description": "Distract Piglins with gold",
+      "requirement": "Give a piglin one of 25 gold-related items from the piglin_loved item tag"
+    },
+    {
+      "name": "This Boat Has Legs",
+      "description": "Ride a Strider with a Warped Fungus on a Stick",
+      "requirement": "Boost a strider with a warped fungus on a stick"
+    },
+    {
+      "name": "Uneasy Alliance",
+      "description": "Rescue a Ghast from the Nether, bring it safely home to the Overworld... and then kill it",
+      "requirement": "Kill a ghast while in the Overworld",
+      "type": "challenge",
+      "experience": 100
+    },
+    {
+      "name": "War Pigs",
+      "description": "Loot a chest in a Bastion Remnant",
+      "requirement": "Open a chest in a bastion remnant"
+    },
+    {
+      "name": "Country Lode, Take Me Home",
+      "description": "Use a Compass on a Lodestone",
+      "requirement": "Use a Compass on a Lodestone"
+    },
+    {
+      "name": "Cover Me in Debris",
+      "description": "Get a full suit of Netherite armor",
+      "requirement": "Have all pieces of netherite armor in your inventory",
+      "type": "challenge",
+      "experience": 100
+    },
+    {
+      "name": "Spooky Scary Skeleton",
+      "description": "Obtain a Wither Skeleton's skull",
+      "requirement": "Have a wither skeleton skull in your inventory"
+    },
+    {
+      "name": "Into Fire",
+      "description": "Relieve a Blaze of its rod",
+      "requirement": "Have a blaze rod in your inventory"
+    },
+    {
+      "name": "Not Quite \"Nine\" Lives",
+      "description": "Charge a Respawn Anchor to the maximum",
+      "requirement": "Fully charge a Respawn Anchor"
+    },
+    {
+      "name": "Feels Like Home",
+      "description": "Take a Strider for a loooong ride on a lava lake in the Overworld",
+      "requirement": "Ride a strider on lava in the Overworld for 50 blocks horizontally"
+    },
+    {
+      "name": "Hot Tourist Destinations",
+      "description": "Explore all Nether biomes",
+      "requirement": "Visit all 5 Nether biomes",
+      "type": "challenge",
+      "experience": 500
+    },
+    {
+      "name": "Withering Heights",
+      "description": "Summon the Wither",
+      "requirement": "Summon a Wither"
+    },
+    {
+      "name": "Local Brewery",
+      "description": "Brew a Potion",
+      "requirement": "Pick up an item from a brewing stand potion slot"
+    },
+    {
+      "name": "Bring Home the Beacon",
+      "description": "Construct and place a Beacon",
+      "requirement": "Be near a beacon block when it realizes it has become powered"
+    },
+    {
+      "name": "A Furious Cocktail",
+      "description": "Have every potion effect applied at the same time",
+      "requirement": "Have all 13 specified potion effects applied simultaneously",
+      "type": "challenge",
+      "experience": 1000
+    },
+    {
+      "name": "Beaconator",
+      "description": "Bring a beacon to full power",
+      "requirement": "Be near a beacon powered by a size 4 pyramid",
+      "type": "goal",
+      "experience": 50
+    },
+    {
+      "name": "How Did We Get Here?",
+      "description": "Have every effect applied at the same time",
+      "requirement": "Have all 33 status effects applied at the same time",
+      "type": "challenge",
+      "experience": 1000,
+      "hidden": true
+    }
+  ],
+  "the_end_tab": [
+    {
+      "name": "The End?",
+      "description": "Or the beginning?",
+      "requirement": "Enter the End dimension"
+    },
+    {
+      "name": "Free the End",
+      "description": "Good luck",
+      "requirement": "Kill the ender dragon"
+    },
+    {
+      "name": "The Next Generation",
+      "description": "Hold the Dragon Egg",
+      "requirement": "Have a dragon egg in your inventory",
+      "type": "goal",
+      "experience": 50
+    },
+    {
+      "name": "Remote Getaway",
+      "description": "Escape the island",
+      "requirement": "Throw an ender pearl through, fly, or walk into an end gateway"
+    },
+    {
+      "name": "The End... Again...",
+      "description": "Respawn the Ender Dragon",
+      "requirement": "Summon the ender dragon using end crystals",
+      "type": "goal",
+      "experience": 50
+    },
+    {
+      "name": "You Need a Mint",
+      "description": "Collect Dragon's Breath in a Glass Bottle",
+      "requirement": "Have Dragon's Breath in your inventory",
+      "type": "goal",
+      "experience": 50
+    },
+    {
+      "name": "The City at the End of the Game",
+      "description": "Go on in, what could happen?",
+      "requirement": "Enter an end city"
+    },
+    {
+      "name": "Sky's the Limit",
+      "description": "Find elytra",
+      "requirement": "Have elytra in your inventory",
+      "type": "goal",
+      "experience": 50
+    },
+    {
+      "name": "Great View From Up Here",
+      "description": "Levitate up 50 blocks from the attacks of a Shulker",
+      "requirement": "Rise 50 blocks vertically with the Levitation effect",
+      "type": "challenge",
+      "experience": 50
+    }
+  ],
+  "adventure_tab": [
+    {
+      "name": "Adventure",
+      "description": "Adventure, exploration, and combat",
+      "requirement": "Kill any entity, or be killed by any entity"
+    },
+    {
+      "name": "Voluntary Exile",
+      "description": "Kill a raid captain. Maybe consider staying away from villages for the time being...",
+      "requirement": "Kill any entity from the raiders tag wearing an ominous banner",
+      "hidden": true
+    },
+    {
+      "name": "Is It a Bird?",
+      "description": "Look at a Parrot through a Spyglass",
+      "requirement": "View a Parrot through a Spyglass"
+    },
+    {
+      "name": "Monster Hunter",
+      "description": "Kill any hostile monster",
+      "requirement": "Kill one of 36 specified hostile mobs"
+    },
+    {
+      "name": "The Power of Books",
+      "description": "Read the power signal of a Chiseled Bookshelf using a Comparator",
+      "requirement": "Read a chiseled bookshelf with a comparator"
+    },
+    {
+      "name": "What a Deal!",
+      "description": "Successfully trade with a Villager",
+      "requirement": "Take an item from a villager or wandering trader's trading output slot"
+    },
+    {
+      "name": "Smithing with Style",
+      "description": "Apply these smithing templates at least once: Spire, Snout, Rib, Ward, Silence, Vex, Tide, Wayfinder",
+      "requirement": "Apply any armor trim pattern"
+    },
+    {
+      "name": "Sticky Situation",
+      "description": "Jump into a Honey Block to break your fall",
+      "requirement": "Collide with a Honey Block to break a fall"
+    },
+    {
+      "name": "Ol' Betsy",
+      "description": "Shoot a Crossbow",
+      "requirement": "Shoot a Crossbow"
+    },
+    {
+      "name": "Surge Protector",
+      "description": "Protect a Villager from an undesired shock without starting a fire",
+      "requirement": "Protect a villager from lightning with a lightning rod"
+    },
+    {
+      "name": "Caves & Cliffs",
+      "description": "Free fall from the top of the world (build limit) to the bottom of the world and survive",
+      "requirement": "Fall from Y=320 to Y=-59 and survive"
+    },
+    {
+      "name": "Respecting the Remnants",
+      "description": "Brush a Suspicious block to obtain a Pottery Sherd",
+      "requirement": "Brush a suspicious block to get a pottery sherd"
+    },
+    {
+      "name": "Sneak 100",
+      "description": "Sneaking next to a Sculk Sensor or Warden to prevent it from detecting you",
+      "requirement": "Avoid vibrations while near a sculk sensor or warden"
+    },
+    {
+      "name": "Sweet Dreams",
+      "description": "Sleep in a Bed",
+      "requirement": "Enter a bed"
+    },
+    {
+      "name": "Hero of the Village",
+      "description": "Successfully defend a village from a raid",
+      "requirement": "Successfully defend a raid",
+      "type": "challenge",
+      "experience": 100,
+      "hidden": true
+    },
+    {
+      "name": "Is It a Balloon?",
+      "description": "Look at a Ghast through a Spyglass",
+      "requirement": "View a Ghast through a Spyglass"
+    },
+    {
+      "name": "A Throwaway Joke",
+      "description": "Throw a trident at something. Note: Throwing away your only weapon is not a good idea.",
+      "requirement": "Kill a mob with a thrown trident"
+    },
+    {
+      "name": "It Spreads",
+      "description": "Kill a mob near a Sculk Catalyst",
+      "requirement": "Kill any of 81 specified mobs near a Sculk Catalyst",
+      "type": "challenge",
+      "experience": 50
+    },
+    {
+      "name": "Take Aim",
+      "description": "Shoot something with an arrow",
+      "requirement": "Shoot an entity with an arrow or tipped/spectral arrow"
+    },
+    {
+      "name": "Monsters Hunted",
+      "description": "Kill one of every hostile monster",
+      "requirement": "Kill all 38 specified hostile mobs",
+      "type": "challenge",
+      "experience": 100
+    },
+    {
+      "name": "Postmortal",
+      "description": "Use a Totem of Undying to cheat death",
+      "requirement": "Use a Totem of Undying",
+      "type": "goal",
+      "experience": 50
+    },
+    {
+      "name": "Hired Help",
+      "description": "Summon an Iron Golem to help defend a village",
+      "requirement": "Summon an Iron Golem",
+      "type": "goal",
+      "experience": 50
+    },
+    {
+      "name": "Star Trader",
+      "description": "Trade with a Villager at the build height limit",
+      "requirement": "Trade with a villager at Y=320 or above"
+    },
+    {
+      "name": "Smithing with Style",
+      "description": "Apply all exclusive armor trims",
+      "requirement": "Apply all exclusive armor trim patterns",
+      "type": "challenge",
+      "experience": 150
+    },
+    {
+      "name": "Two Birds, One Arrow",
+      "description": "Kill two Phantoms with a piercing arrow",
+      "requirement": "Kill two phantoms with one arrow using a crossbow with Piercing",
+      "type": "challenge",
+      "experience": 65
+    },
+    {
+      "name": "Who's the Pillager Now?",
+      "description": "Give a Pillager a taste of their own medicine",
+      "requirement": "Kill a pillager with a crossbow"
+    },
+    {
+      "name": "Arbalistic",
+      "description": "Kill five unique mobs with one crossbow shot",
+      "requirement": "Kill five different mobs with a single crossbow shot",
+      "type": "challenge",
+      "experience": 85,
+      "hidden": true
+    },
+    {
+      "name": "Careful Restoration",
+      "description": "Make a Decorated Pot out of 4 Pottery Sherds",
+      "requirement": "Craft a decorated pot using only pottery sherds"
+    },
+    {
+      "name": "Adventuring Time",
+      "description": "Discover every biome",
+      "requirement": "Visit all 61 Overworld biomes",
+      "type": "challenge",
+      "experience": 500
+    },
+    {
+      "name": "Sound of Music",
+      "description": "Make the Meadows come alive with the sound of music from a jukebox",
+      "requirement": "Play a music disc in a jukebox in a meadows biome"
+    },
+    {
+      "name": "Light as a Rabbit",
+      "description": "Walk on Powder Snow... without sinking in it",
+      "requirement": "Walk on powder snow with leather boots"
+    },
+    {
+      "name": "Is It a Plane?",
+      "description": "Look at the Ender Dragon through a Spyglass",
+      "requirement": "View an Ender Dragon through a Spyglass"
+    },
+    {
+      "name": "Very Very Frightening",
+      "description": "Strike a Villager with lightning",
+      "requirement": "Hit a villager with lightning using a trident with Channeling"
+    },
+    {
+      "name": "Sniper Duel",
+      "description": "Kill a Skeleton from at least 50 meters away",
+      "requirement": "Kill a skeleton with an arrow from 50+ meters away",
+      "type": "challenge",
+      "experience": 50
+    },
+    {
+      "name": "Bullseye",
+      "description": "Hit the bullseye of a Target block from at least 30 meters away",
+      "requirement": "Hit a target block from 30+ meters away",
+      "type": "challenge",
+      "experience": 50
+    }
+  ],
+  "husbandry_tab": [
+    {
+      "name": "Husbandry",
+      "description": "The world is full of friends and food",
+      "requirement": "Consume anything that can be eaten"
+    },
+    {
+      "name": "Bee Our Guest",
+      "description": "Use a Campfire to collect Honey from a Beehive using a Glass Bottle without aggravating the Bees",
+      "requirement": "Use a glass bottle on a beehive/bee nest while not angering bees"
+    },
+    {
+      "name": "The Parrots and the Bats",
+      "description": "Breed two animals together",
+      "requirement": "Breed any two breedable mobs"
+    },
+    {
+      "name": "You've Got a Friend in Me",
+      "description": "Have an Allay deliver items to you",
+      "requirement": "Have an allay deliver an item to you",
+      "hidden": true
+    },
+    {
+      "name": "Whatever Floats Your Goat!",
+      "description": "Get in a Boat and float with a Goat",
+      "requirement": "Ride in a boat with a goat"
+    },
+    {
+      "name": "Best Friends Forever",
+      "description": "Tame an animal",
+      "requirement": "Tame one of: cat, donkey, horse, llama, parrot, or wolf"
+    },
+    {
+      "name": "Glow and Behold!",
+      "description": "Make the text of any kind of sign glow",
+      "requirement": "Use a glow ink sac on a sign or hanging sign"
+    },
+    {
+      "name": "Fishy Business",
+      "description": "Catch a fish",
+      "requirement": "Catch cod, salmon, pufferfish, or tropical fish with a fishing rod"
+    },
+    {
+      "name": "Total Beelocation",
+      "description": "Move and place a Bee Nest, with 3 Bees inside, using Silk Touch",
+      "requirement": "Move a bee nest with 3 bees using Silk Touch"
+    },
+    {
+      "name": "Bukkit Bukkit",
+      "description": "Catch a Tadpole in a Bucket",
+      "requirement": "Use a water bucket on a tadpole"
+    },
+    {
+      "name": "Smells Interesting",
+      "description": "Obtain a Sniffer Egg",
+      "requirement": "Have a sniffer egg in your inventory",
+      "hidden": true
+    },
+    {
+      "name": "A Seedy Place",
+      "description": "Plant any Sniffer seed",
+      "requirement": "Plant a seed"
+    },
+    {
+      "name": "Wax On",
+      "description": "Apply Honeycomb to a Copper block!",
+      "requirement": "Wax a copper block with honeycomb"
+    },
+    {
+      "name": "Two by Two",
+      "description": "Breed all the animals!",
+      "requirement": "Breed all 26 breedable mobs",
+      "type": "challenge",
+      "experience": 100
+    },
+    {
+      "name": "Birthday Song",
+      "description": "Have an Allay drop a Cake at a Note Block",
+      "requirement": "Have an allay drop a cake at a note block",
+      "hidden": true
+    },
+    {
+      "name": "A Complete Catalogue",
+      "description": "Tame all Cat variants!",
+      "requirement": "Tame all 11 cat variants",
+      "type": "challenge",
+      "experience": 50
+    },
+    {
+      "name": "Tactical Fishing",
+      "description": "Catch a fish... without a fishing rod!",
+      "requirement": "Use a water bucket on any fish mob"
+    },
+    {
+      "name": "When the Squad Hops into Town",
+      "description": "Get each Frog variant on a Lead",
+      "requirement": "Leash all 3 frog variants"
+    },
+    {
+      "name": "Little Sniffs",
+      "description": "Feed a Snifflet",
+      "requirement": "Feed a snifflet",
+      "hidden": true
+    },
+    {
+      "name": "A Balanced Diet",
+      "description": "Eat everything that is edible, even if it's not good for you",
+      "requirement": "Eat all 41 specified foods",
+      "type": "challenge",
+      "experience": 100
+    },
+    {
+      "name": "Serious Dedication",
+      "description": "Use a Netherite Ingot to upgrade a Hoe, and then reevaluate your life choices",
+      "requirement": "Have a netherite hoe in your inventory",
+      "type": "challenge",
+      "experience": 100
+    },
+    {
+      "name": "Wax Off",
+      "description": "Scrape Wax off of a Copper block!",
+      "requirement": "Use an axe to scrape wax from a copper block"
+    },
+    {
+      "name": "The Cutest Predator",
+      "description": "Catch an Axolotl in a Bucket",
+      "requirement": "Use a water bucket on an axolotl"
+    },
+    {
+      "name": "With Our Powers Combined!",
+      "description": "Have all Froglights in your inventory",
+      "requirement": "Have all 3 froglights in inventory",
+      "type": "challenge",
+      "experience": 50
+    },
+    {
+      "name": "Planting the Past",
+      "description": "Plant any Sniffer seed",
+      "requirement": "Plant a torchflower seed or pitcher pod",
+      "hidden": true
+    },
+    {
+      "name": "The Healing Power of Friendship!",
+      "description": "Team up with an axolotl and win a fight",
+      "requirement": "Get a Regeneration effect from helping an axolotl kill a mob"
+    }
+  ]
+}
