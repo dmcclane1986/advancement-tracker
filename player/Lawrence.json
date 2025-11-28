@@ -7,32 +7,20 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
-      "minecraft:cold_ocean": "2025-11-28 03:17:01 +0000",
       "minecraft:snowy_slopes": "2025-11-26 01:15:20 +0000",
       "minecraft:old_growth_pine_taiga": "2025-11-28 03:16:59 +0000",
       "minecraft:mushroom_fields": "2025-11-28 02:58:27 +0000",
-      "minecraft:forest": "2025-10-07 23:57:06 +0000",
       "minecraft:taiga": "2025-11-26 04:12:17 +0000",
       "minecraft:deep_ocean": "2025-11-28 02:57:07 +0000",
-      "minecraft:lush_caves": "2025-11-26 03:14:58 +0000",
-      "minecraft:deep_cold_ocean": "2025-11-28 02:58:26 +0000",
-      "minecraft:ice_spikes": "2025-11-28 02:34:32 +0000",
-      "minecraft:frozen_ocean": "2025-11-28 02:08:51 +0000",
-      "minecraft:desert": "2025-11-26 01:47:17 +0000",
+      "minecraft:eroded_badlands": "2025-11-28 03:44:13 +0000",
       "minecraft:frozen_river": "2025-11-26 04:13:02 +0000",
-      "minecraft:windswept_forest": "2025-11-26 02:14:24 +0000",
-      "minecraft:deep_frozen_ocean": "2025-11-28 02:08:58 +0000",
-      "minecraft:jungle": "2025-11-26 01:47:20 +0000",
-      "minecraft:ocean": "2025-11-28 03:11:58 +0000",
       "minecraft:cherry_grove": "2025-10-07 23:12:33 +0000",
       "minecraft:sunflower_plains": "2025-10-09 21:10:15 +0000",
-      "minecraft:snowy_beach": "2025-11-28 02:24:16 +0000",
+      "minecraft:birch_forest": "2025-11-28 03:47:02 +0000",
+      "minecraft:windswept_hills": "2025-11-28 03:50:26 +0000",
       "minecraft:wooded_badlands": "2025-11-26 02:19:26 +0000",
       "minecraft:bamboo_jungle": "2025-11-26 01:55:00 +0000",
-      "minecraft:warm_ocean": "2025-11-26 02:17:33 +0000",
-      "minecraft:deep_lukewarm_ocean": "2025-11-28 03:12:39 +0000",
       "minecraft:badlands": "2025-11-26 02:19:50 +0000",
-      "minecraft:flower_forest": "2025-10-07 23:07:04 +0000",
       "minecraft:savanna_plateau": "2025-11-26 02:20:41 +0000",
       "minecraft:beach": "2025-11-26 01:58:58 +0000",
       "minecraft:dark_forest": "2025-11-26 02:14:02 +0000",
@@ -45,14 +33,33 @@
       "minecraft:snowy_plains": "2025-11-28 02:22:13 +0000",
       "minecraft:dripstone_caves": "2025-10-09 21:10:55 +0000",
       "minecraft:snowy_taiga": "2025-11-26 04:13:05 +0000",
-      "minecraft:frozen_peaks": "2025-11-26 01:23:50 +0000",
-      "minecraft:old_growth_birch_forest": "2025-11-28 03:16:48 +0000",
       "minecraft:grove": "2025-11-26 01:23:41 +0000",
       "minecraft:swamp": "2025-11-26 02:14:35 +0000",
+      "minecraft:jagged_peaks": "2025-11-28 02:37:56 +0000",
+      "minecraft:cold_ocean": "2025-11-28 03:17:01 +0000",
+      "minecraft:forest": "2025-10-07 23:57:06 +0000",
+      "minecraft:lush_caves": "2025-11-26 03:14:58 +0000",
+      "minecraft:deep_cold_ocean": "2025-11-28 02:58:26 +0000",
+      "minecraft:ice_spikes": "2025-11-28 02:34:32 +0000",
+      "minecraft:frozen_ocean": "2025-11-28 02:08:51 +0000",
+      "minecraft:desert": "2025-11-26 01:47:17 +0000",
+      "minecraft:windswept_forest": "2025-11-26 02:14:24 +0000",
+      "minecraft:deep_frozen_ocean": "2025-11-28 02:08:58 +0000",
+      "minecraft:jungle": "2025-11-26 01:47:20 +0000",
+      "minecraft:ocean": "2025-11-28 03:11:58 +0000",
+      "minecraft:old_growth_spruce_taiga": "2025-11-28 03:47:49 +0000",
+      "minecraft:snowy_beach": "2025-11-28 02:24:16 +0000",
+      "minecraft:windswept_savanna": "2025-11-28 04:02:53 +0000",
+      "minecraft:warm_ocean": "2025-11-26 02:17:33 +0000",
+      "minecraft:deep_lukewarm_ocean": "2025-11-28 03:12:39 +0000",
+      "minecraft:flower_forest": "2025-10-07 23:07:04 +0000",
+      "minecraft:frozen_peaks": "2025-11-26 01:23:50 +0000",
+      "minecraft:old_growth_birch_forest": "2025-11-28 03:16:48 +0000",
       "minecraft:meadow": "2025-11-26 01:23:28 +0000",
+      "minecraft:windswept_gravelly_hills": "2025-11-28 04:07:35 +0000",
       "minecraft:savanna": "2025-11-26 02:20:23 +0000",
       "minecraft:plains": "2025-10-07 23:06:35 +0000",
-      "minecraft:jagged_peaks": "2025-11-28 02:37:56 +0000"
+      "minecraft:pale_garden": "2025-11-28 03:52:26 +0000"
     },
     "done": false
   },
@@ -535,16 +542,19 @@
   },
   "minecraft:husbandry/bred_all_animals": {
     "criteria": {
+      "minecraft:pig": "2025-10-07 23:54:29 +0000",
+      "minecraft:llama": "2025-11-28 03:26:30 +0000",
+      "minecraft:turtle": "2025-11-26 02:24:39 +0000",
+      "minecraft:sheep": "2025-10-07 23:45:20 +0000",
       "minecraft:mooshroom": "2025-11-28 03:00:34 +0000",
       "minecraft:cow": "2025-10-07 23:45:17 +0000",
       "minecraft:goat": "2025-11-26 01:29:02 +0000",
       "minecraft:camel": "2025-11-26 03:23:39 +0000",
       "minecraft:chicken": "2025-10-07 23:54:17 +0000",
-      "minecraft:pig": "2025-10-07 23:54:29 +0000",
+      "minecraft:armadillo": "2025-11-28 03:34:13 +0000",
       "minecraft:panda": "2025-11-26 02:06:08 +0000",
-      "minecraft:turtle": "2025-11-26 02:24:39 +0000",
-      "minecraft:sheep": "2025-10-07 23:45:20 +0000",
-      "minecraft:rabbit": "2025-11-26 02:41:56 +0000"
+      "minecraft:rabbit": "2025-11-26 02:41:56 +0000",
+      "minecraft:bee": "2025-11-28 03:57:06 +0000"
     },
     "done": false
   },
@@ -1312,7 +1322,8 @@
       "minecraft:enderman": "2025-11-01 20:48:39 +0000",
       "minecraft:endermite": "2025-11-01 21:35:46 +0000",
       "minecraft:zombie": "2025-10-08 03:04:41 +0000",
-      "minecraft:drowned": "2025-11-01 23:08:38 +0000"
+      "minecraft:drowned": "2025-11-01 23:08:38 +0000",
+      "minecraft:zombie_villager": "2025-11-28 03:53:47 +0000"
     },
     "done": false
   },
@@ -5053,9 +5064,22 @@
   },
   "minecraft:husbandry/whole_pack": {
     "criteria": {
+      "minecraft:spotted": "2025-11-28 03:35:44 +0000",
       "minecraft:woods": "2025-11-26 05:21:14 +0000"
     },
     "done": false
+  },
+  "minecraft:recipes/building_blocks/chiseled_tuff_bricks_from_tuff_stonecutting": {
+    "criteria": {
+      "has_tuff": "2025-11-28 03:40:52 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/tuff_bricks_from_tuff_stonecutting": {
+    "criteria": {
+      "has_tuff": "2025-11-28 03:40:52 +0000"
+    },
+    "done": true
   },
   "minecraft:recipes/decorations/prismarine_wall_from_prismarine_stonecutting": {
     "criteria": {
@@ -5081,9 +5105,27 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/suspicious_stew_from_allium": {
+    "criteria": {
+      "has_allium": "2025-11-28 03:56:45 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_tuff_slab_from_tuff_stonecutting": {
+    "criteria": {
+      "has_tuff": "2025-11-28 03:40:52 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/end_crystal": {
     "criteria": {
       "has_ender_eye": "2025-11-27 22:06:42 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/tuff_stairs": {
+    "criteria": {
+      "has_tuff": "2025-11-28 03:40:52 +0000"
     },
     "done": true
   },
@@ -5096,6 +5138,12 @@
   "minecraft:recipes/building_blocks/sponge": {
     "criteria": {
       "has_wet_sponge": "2025-11-28 02:15:25 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/tuff_brick_wall_from_tuff_stonecutting": {
+    "criteria": {
+      "has_tuff": "2025-11-28 03:40:52 +0000"
     },
     "done": true
   },
@@ -5117,6 +5165,18 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/chiseled_tuff_from_tuff_stonecutting": {
+    "criteria": {
+      "has_tuff": "2025-11-28 03:40:52 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_tuff_stairs_from_tuff_stonecutting": {
+    "criteria": {
+      "has_tuff": "2025-11-28 03:40:52 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/prismarine_brick_slab_from_prismarine_stonecutting": {
     "criteria": {
       "has_prismarine_brick": "2025-11-28 02:18:46 +0000"
@@ -5126,6 +5186,24 @@
   "minecraft:recipes/building_blocks/prismarine_bricks": {
     "criteria": {
       "has_prismarine_shard": "2025-11-28 02:10:10 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/resin_brick": {
+    "criteria": {
+      "has_resin_clump": "2025-11-28 04:16:04 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/tuff_brick_stairs_from_tuff_stonecutting": {
+    "criteria": {
+      "has_tuff": "2025-11-28 03:40:52 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/tnt_minecart": {
+    "criteria": {
+      "has_minecart": "2025-11-28 05:42:42 +0000"
     },
     "done": true
   },
@@ -5141,15 +5219,33 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/redstone": {
+    "criteria": {
+      "has_redstone_block": "2025-11-28 05:08:22 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/bone_meal_from_bone_block": {
     "criteria": {
       "has_bone_block": "2025-11-28 01:05:13 +0000"
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/tuff_slab_from_tuff_stonecutting": {
+    "criteria": {
+      "has_tuff": "2025-11-28 03:40:52 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/beacon": {
     "criteria": {
       "has_nether_star": "2025-11-28 01:23:28 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/activator_rail": {
+    "criteria": {
+      "has_rail": "2025-11-28 05:43:08 +0000"
     },
     "done": true
   },
@@ -5165,6 +5261,24 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/polished_tuff_from_tuff_stonecutting": {
+    "criteria": {
+      "has_tuff": "2025-11-28 03:40:52 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/repeater": {
+    "criteria": {
+      "has_redstone_torch": "2025-11-28 04:45:18 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/magenta_dye_from_allium": {
+    "criteria": {
+      "has_allium": "2025-11-28 03:56:45 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/diamond_from_blasting_deepslate_diamond_ore": {
     "criteria": {
       "has_deepslate_diamond_ore": "2025-11-28 02:54:00 +0000"
@@ -5177,9 +5291,45 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/resin_block": {
+    "criteria": {
+      "has_resin_clump": "2025-11-28 04:16:04 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/detector_rail": {
+    "criteria": {
+      "has_rail": "2025-11-28 05:43:08 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/chest_minecart": {
+    "criteria": {
+      "has_minecart": "2025-11-28 05:42:42 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/diamond_from_smelting_deepslate_diamond_ore": {
     "criteria": {
       "has_deepslate_diamond_ore": "2025-11-28 02:54:00 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/tuff_slab": {
+    "criteria": {
+      "has_tuff": "2025-11-28 03:40:52 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/tuff_brick_slab_from_tuff_stonecutting": {
+    "criteria": {
+      "has_tuff": "2025-11-28 03:40:52 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/polished_tuff_wall_from_tuff_stonecutting": {
+    "criteria": {
+      "has_tuff": "2025-11-28 03:40:52 +0000"
     },
     "done": true
   },
@@ -5189,9 +5339,45 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/tuff_wall": {
+    "criteria": {
+      "has_tuff": "2025-11-28 03:40:52 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/furnace_minecart": {
+    "criteria": {
+      "has_minecart": "2025-11-28 05:42:42 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/hopper_minecart": {
+    "criteria": {
+      "has_minecart": "2025-11-28 05:42:42 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/wolf_armor": {
+    "criteria": {
+      "has_armadillo_scute": "2025-11-28 03:40:54 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/tuff_wall_from_tuff_stonecutting": {
+    "criteria": {
+      "has_tuff": "2025-11-28 03:40:52 +0000"
+    },
+    "done": true
+  },
   "minecraft:story/cure_zombie_villager": {
     "criteria": {
       "cured_zombie": "2025-11-28 02:31:01 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/yellow_dye_from_wildflowers": {
+    "criteria": {
+      "has_wildflowers": "2025-11-28 04:00:43 +0000"
     },
     "done": true
   },
@@ -5207,9 +5393,39 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/pale_oak_planks": {
+    "criteria": {
+      "has_log": "2025-11-28 04:15:54 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/tuff_stairs_from_tuff_stonecutting": {
+    "criteria": {
+      "has_tuff": "2025-11-28 03:40:52 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/brush_armadillo": {
+    "criteria": {
+      "brush_armadillo": "2025-11-28 03:40:38 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/grindstone": {
+    "criteria": {
+      "has_stone_slab": "2025-11-28 04:59:18 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/dark_prismarine_slab_from_dark_prismarine_stonecutting": {
     "criteria": {
       "has_dark_prismarine": "2025-11-28 02:18:06 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_tuff": {
+    "criteria": {
+      "has_tuff": "2025-11-28 03:40:52 +0000"
     },
     "done": true
   },
@@ -5225,9 +5441,33 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/pale_oak_wood": {
+    "criteria": {
+      "has_log": "2025-11-28 04:15:54 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/ender_chest": {
     "criteria": {
       "has_ender_eye": "2025-11-27 22:06:42 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/slime_ball": {
+    "criteria": {
+      "has_slime_block": "2025-11-28 05:17:24 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/powered_rail": {
+    "criteria": {
+      "has_rail": "2025-11-28 05:43:08 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/rail": {
+    "criteria": {
+      "has_minecart": "2025-11-28 05:42:42 +0000"
     },
     "done": true
   },
