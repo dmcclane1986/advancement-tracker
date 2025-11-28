@@ -10,13 +10,18 @@
       "minecraft:cold_ocean": "2025-11-21 23:13:45 +0000",
       "minecraft:snowy_slopes": "2025-11-24 04:21:36 +0000",
       "minecraft:old_growth_pine_taiga": "2025-11-26 04:12:06 +0000",
+      "minecraft:mushroom_fields": "2025-11-28 02:58:31 +0000",
       "minecraft:forest": "2025-10-07 23:18:12 +0000",
       "minecraft:taiga": "2025-11-18 03:57:19 +0000",
       "minecraft:deep_ocean": "2025-10-13 21:00:35 +0000",
       "minecraft:lush_caves": "2025-11-26 03:13:11 +0000",
+      "minecraft:deep_cold_ocean": "2025-11-28 02:58:29 +0000",
+      "minecraft:ice_spikes": "2025-11-28 02:35:58 +0000",
+      "minecraft:frozen_ocean": "2025-11-28 02:08:34 +0000",
       "minecraft:desert": "2025-11-25 01:25:25 +0000",
       "minecraft:frozen_river": "2025-11-21 23:23:28 +0000",
       "minecraft:windswept_forest": "2025-11-23 21:00:21 +0000",
+      "minecraft:deep_frozen_ocean": "2025-11-28 02:09:35 +0000",
       "minecraft:ocean": "2025-10-13 20:55:42 +0000",
       "minecraft:jungle": "2025-11-02 22:05:29 +0000",
       "minecraft:cherry_grove": "2025-10-07 23:29:42 +0000",
@@ -24,6 +29,7 @@
       "minecraft:birch_forest": "2025-11-21 23:11:51 +0000",
       "minecraft:windswept_hills": "2025-10-13 20:48:44 +0000",
       "minecraft:old_growth_spruce_taiga": "2025-11-26 04:12:13 +0000",
+      "minecraft:snowy_beach": "2025-11-28 02:26:11 +0000",
       "minecraft:bamboo_jungle": "2025-11-02 22:01:22 +0000",
       "minecraft:wooded_badlands": "2025-11-25 01:25:17 +0000",
       "minecraft:windswept_savanna": "2025-10-13 20:55:33 +0000",
@@ -47,7 +53,8 @@
       "minecraft:grove": "2025-11-21 23:13:56 +0000",
       "minecraft:meadow": "2025-10-09 22:36:58 +0000",
       "minecraft:windswept_gravelly_hills": "2025-11-18 03:26:54 +0000",
-      "minecraft:plains": "2025-10-07 00:32:35 +0000"
+      "minecraft:plains": "2025-10-07 00:32:35 +0000",
+      "minecraft:jagged_peaks": "2025-11-28 02:37:08 +0000"
     },
     "done": false
   },
@@ -516,6 +523,7 @@
       "minecraft:blaze": "2025-10-09 16:54:20 +0000",
       "minecraft:skeleton": "2025-10-07 23:31:33 +0000",
       "minecraft:elder_guardian": "2025-10-13 21:04:19 +0000",
+      "minecraft:zoglin": "2025-11-28 02:08:16 +0000",
       "minecraft:bogged": "2025-11-18 03:12:22 +0000",
       "minecraft:ghast": "2025-10-25 20:07:34 +0000",
       "minecraft:hoglin": "2025-11-16 01:04:05 +0000",
@@ -525,6 +533,7 @@
       "minecraft:spider": "2025-10-08 01:17:54 +0000",
       "minecraft:piglin_brute": "2025-11-16 01:05:39 +0000",
       "minecraft:creeper": "2025-10-07 23:28:59 +0000",
+      "minecraft:wither": "2025-11-28 01:19:26 +0000",
       "minecraft:slime": "2025-11-18 01:58:20 +0000",
       "minecraft:phantom": "2025-11-02 00:02:18 +0000",
       "minecraft:zombified_piglin": "2025-10-10 15:34:22 +0000",
@@ -536,6 +545,7 @@
       "minecraft:piglin": "2025-10-27 23:00:41 +0000",
       "minecraft:enderman": "2025-10-09 17:18:41 +0000",
       "minecraft:silverfish": "2025-10-25 23:23:10 +0000",
+      "minecraft:stray": "2025-11-28 02:34:44 +0000",
       "minecraft:endermite": "2025-11-02 20:55:13 +0000",
       "minecraft:zombie": "2025-10-07 23:30:40 +0000",
       "minecraft:drowned": "2025-10-13 20:52:17 +0000",
@@ -1979,6 +1989,7 @@
   },
   "minecraft:husbandry/bred_all_animals": {
     "criteria": {
+      "minecraft:mooshroom": "2025-11-28 03:00:52 +0000",
       "minecraft:cow": "2025-10-09 13:34:34 +0000",
       "minecraft:goat": "2025-11-26 01:19:51 +0000",
       "minecraft:camel": "2025-11-26 03:29:08 +0000",
@@ -6586,6 +6597,24 @@
   "minecraft:adventure/throw_trident": {
     "criteria": {
       "shot_trident": "2025-11-26 05:12:23 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/bone_meal_from_bone_block": {
+    "criteria": {
+      "has_bone_block": "2025-11-27 01:13:14 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/suspicious_stew_from_wither_rose": {
+    "criteria": {
+      "has_wither_rose": "2025-11-28 01:18:51 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/black_dye_from_wither_rose": {
+    "criteria": {
+      "has_wither_rose": "2025-11-28 01:18:51 +0000"
     },
     "done": true
   },
