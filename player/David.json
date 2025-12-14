@@ -546,6 +546,7 @@
       "minecraft:witch": "2025-11-02 00:50:01 +0000",
       "minecraft:wither_skeleton": "2025-10-09 16:58:19 +0000",
       "minecraft:husk": "2025-11-26 03:35:22 +0000",
+      "minecraft:ender_dragon": "2025-12-14 01:19:39 +0000",
       "minecraft:shulker": "2025-11-01 21:20:29 +0000",
       "minecraft:cave_spider": "2025-10-25 22:31:14 +0000",
       "minecraft:piglin": "2025-10-27 23:00:41 +0000",
@@ -6764,6 +6765,42 @@
       "has_lightning_rod": "2025-12-02 00:34:26 +0000"
     },
     "done": true
+  },
+  "minecraft:recipes/building_blocks/bamboo_planks": {
+    "criteria": {
+      "has_logs": "2025-12-13 22:49:39 +0000"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/allay_deliver_cake_to_note_block": {
+    "criteria": {
+      "allay_deliver_cake_to_note_block": "2025-12-14 01:12:17 +0000"
+    },
+    "done": true
+  },
+  "minecraft:end/respawn_dragon": {
+    "criteria": {
+      "summoned_dragon": "2025-12-14 01:15:59 +0000"
+    },
+    "done": true
+  },
+  "minecraft:end/dragon_breath": {
+    "criteria": {
+      "dragon_breath": "2025-12-14 01:17:38 +0000"
+    },
+    "done": true
+  },
+  "minecraft:end/kill_dragon": {
+    "criteria": {
+      "killed_dragon": "2025-12-14 01:19:39 +0000"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/complete_catalogue": {
+    "criteria": {
+      "minecraft:persian": "2025-12-14 02:31:39 +0000"
+    },
+    "done": false
   },
   "DataVersion": 4554
 }
