@@ -6812,9 +6812,10 @@
       "minecraft:black": "2025-12-25 03:13:32 +0000",
       "minecraft:all_black": "2026-03-29 02:42:48 +0000",
       "minecraft:ragdoll": "2026-04-10 01:41:50 +0000",
-      "minecraft:british_shorthair": "2025-12-25 01:39:20 +0000"
+      "minecraft:british_shorthair": "2025-12-25 01:39:20 +0000",
+      "minecraft:red": "2026-04-10 02:37:15 +0000"
     },
-    "done": false
+    "done": true
   },
   "minecraft:adventure/lightning_rod_with_villager_no_fire": {
     "criteria": {

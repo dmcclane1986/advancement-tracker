@@ -5878,7 +5878,10 @@
       "minecraft:tabby": "2025-12-25 04:04:51 +0000",
       "minecraft:calico": "2026-04-10 01:43:19 +0000",
       "minecraft:siamese": "2025-12-25 04:05:32 +0000",
-      "minecraft:black": "2026-04-10 01:49:16 +0000"
+      "minecraft:jellie": "2026-04-10 02:41:48 +0000",
+      "minecraft:black": "2026-04-10 01:49:16 +0000",
+      "minecraft:ragdoll": "2026-04-10 02:37:52 +0000",
+      "minecraft:british_shorthair": "2026-04-10 02:42:05 +0000"
     },
     "done": false
   },
@@ -6359,6 +6362,18 @@
   "minecraft:nether/ride_strider_in_overworld_lava": {
     "criteria": {
       "ride_entity_distance": "2026-04-10 01:05:49 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/spruce_wood": {
+    "criteria": {
+      "has_log": "2026-04-10 02:15:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/spruce_planks": {
+    "criteria": {
+      "has_logs": "2026-04-10 02:15:27 +0000"
     },
     "done": true
   },
