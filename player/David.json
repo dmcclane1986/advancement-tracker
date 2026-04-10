@@ -6811,6 +6811,7 @@
       "minecraft:jellie": "2025-12-25 00:19:13 +0000",
       "minecraft:black": "2025-12-25 03:13:32 +0000",
       "minecraft:all_black": "2026-03-29 02:42:48 +0000",
+      "minecraft:ragdoll": "2026-04-10 01:41:50 +0000",
       "minecraft:british_shorthair": "2025-12-25 01:39:20 +0000"
     },
     "done": false
@@ -7271,6 +7272,24 @@
     },
     "done": true
   },
+  "minecraft:adventure/hero_of_the_village": {
+    "criteria": {
+      "hero_of_the_village": "2026-03-29 01:10:18 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/ride_strider": {
+    "criteria": {
+      "used_warped_fungus_on_a_stick": "2026-03-29 02:19:36 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/recovery_compass": {
+    "criteria": {
+      "has_echo_shard": "2026-03-29 02:29:22 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/deepslate_tile_stairs_from_deepslate_tiles_stonecutting": {
     "criteria": {
       "has_deepslate_tiles": "2026-03-29 02:29:26 +0000"
@@ -7283,39 +7302,9 @@
     },
     "done": true
   },
-  "minecraft:nether/ride_strider": {
-    "criteria": {
-      "used_warped_fungus_on_a_stick": "2026-03-29 02:19:36 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/deepslate_tile_wall": {
     "criteria": {
       "has_deepslate_tiles": "2026-03-29 02:29:26 +0000"
-    },
-    "done": true
-  },
-  "minecraft:adventure/totem_of_undying": {
-    "criteria": {
-      "used_totem": "2026-03-29 03:00:37 +0000"
-    },
-    "done": true
-  },
-  "minecraft:adventure/spyglass_at_dragon": {
-    "criteria": {
-      "spyglass_at_dragon": "2026-03-29 03:41:03 +0000"
-    },
-    "done": true
-  },
-  "minecraft:adventure/hero_of_the_village": {
-    "criteria": {
-      "hero_of_the_village": "2026-03-29 01:10:18 +0000"
-    },
-    "done": true
-  },
-  "minecraft:husbandry/kill_axolotl_target": {
-    "criteria": {
-      "kill_axolotl_target": "2026-03-29 03:35:13 +0000"
     },
     "done": true
   },
@@ -7331,15 +7320,21 @@
     },
     "done": true
   },
-  "minecraft:adventure/kill_mob_near_sculk_catalyst": {
-    "criteria": {
-      "kill_mob_near_sculk_catalyst": "2026-03-29 03:05:30 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/deepslate_tile_stairs": {
     "criteria": {
       "has_deepslate_tiles": "2026-03-29 02:29:26 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/deepslate_tile_slab": {
+    "criteria": {
+      "has_deepslate_tiles": "2026-03-29 02:29:26 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/totem_of_undying": {
+    "criteria": {
+      "used_totem": "2026-03-29 03:00:37 +0000"
     },
     "done": true
   },
@@ -7349,21 +7344,51 @@
     },
     "done": true
   },
+  "minecraft:adventure/kill_mob_near_sculk_catalyst": {
+    "criteria": {
+      "kill_mob_near_sculk_catalyst": "2026-03-29 03:05:30 +0000"
+    },
+    "done": true
+  },
   "minecraft:husbandry/remove_wolf_armor": {
     "criteria": {
       "remove_wolf_armor": "2026-03-29 03:31:01 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/tools/recovery_compass": {
+  "minecraft:husbandry/kill_axolotl_target": {
     "criteria": {
-      "has_echo_shard": "2026-03-29 02:29:22 +0000"
+      "kill_axolotl_target": "2026-03-29 03:35:13 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/deepslate_tile_slab": {
+  "minecraft:adventure/spyglass_at_dragon": {
     "criteria": {
-      "has_deepslate_tiles": "2026-03-29 02:29:26 +0000"
+      "spyglass_at_dragon": "2026-03-29 03:41:03 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/trade_at_world_height": {
+    "criteria": {
+      "trade_at_world_height": "2026-04-10 00:04:35 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/packed_ice": {
+    "criteria": {
+      "has_ice": "2026-04-10 01:38:04 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/cure_zombie_villager": {
+    "criteria": {
+      "cured_zombie": "2026-04-10 01:34:00 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/ride_strider_in_overworld_lava": {
+    "criteria": {
+      "ride_entity_distance": "2026-04-10 01:12:49 +0000"
     },
     "done": true
   },
