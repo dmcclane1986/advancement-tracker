@@ -7375,9 +7375,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/packed_ice": {
+  "minecraft:nether/ride_strider_in_overworld_lava": {
     "criteria": {
-      "has_ice": "2026-04-10 01:38:04 +0000"
+      "ride_entity_distance": "2026-04-10 01:12:49 +0000"
     },
     "done": true
   },
@@ -7387,9 +7387,21 @@
     },
     "done": true
   },
-  "minecraft:nether/ride_strider_in_overworld_lava": {
+  "minecraft:recipes/building_blocks/packed_ice": {
     "criteria": {
-      "ride_entity_distance": "2026-04-10 01:12:49 +0000"
+      "has_ice": "2026-04-10 01:38:04 +0000"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/obtain_sniffer_egg": {
+    "criteria": {
+      "obtain_sniffer_egg": "2026-04-10 03:38:38 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/blowback": {
+    "criteria": {
+      "blowback": "2026-04-25 21:05:19 +0000"
     },
     "done": true
   },

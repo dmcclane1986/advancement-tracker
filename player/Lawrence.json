@@ -6377,5 +6377,11 @@
     },
     "done": true
   },
+  "minecraft:adventure/two_birds_one_arrow": {
+    "criteria": {
+      "two_birds": "2026-04-10 03:09:53 +0000"
+    },
+    "done": true
+  },
   "DataVersion": 4556
 }
