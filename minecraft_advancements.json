@@ -415,12 +415,9 @@
       "requirement": "Kill a pillager with a crossbow"
     },
     {
-      "name": "Arbalistic",
-      "description": "Kill five unique mobs with one crossbow shot",
-      "requirement": "Kill five different mobs with a single crossbow shot",
-      "type": "challenge",
-      "experience": 85,
-      "hidden": true
+      "name": "Country Lode, Take Me Home",
+      "description": "Use a Compass on a Lodestone",
+      "requirement": "Use a Compass on a Lodestone"
     },
     {
       "name": "Careful Restoration",
