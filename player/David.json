@@ -7448,5 +7448,11 @@
     },
     "done": true
   },
+  "minecraft:nether/all_potions": {
+    "criteria": {
+      "all_effects": "2026-05-06 03:55:07 +0000"
+    },
+    "done": true
+  },
   "DataVersion": 4556
 }

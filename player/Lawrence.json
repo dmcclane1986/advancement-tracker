@@ -544,10 +544,12 @@
   "minecraft:husbandry/bred_all_animals": {
     "criteria": {
       "minecraft:cat": "2026-05-06 02:26:01 +0000",
+      "minecraft:donkey": "2026-05-06 03:05:09 +0000",
       "minecraft:pig": "2025-10-07 23:54:29 +0000",
       "minecraft:llama": "2025-11-28 03:26:30 +0000",
       "minecraft:turtle": "2025-11-26 02:24:39 +0000",
       "minecraft:sheep": "2025-10-07 23:45:20 +0000",
+      "minecraft:mule": "2026-05-06 03:06:24 +0000",
       "minecraft:mooshroom": "2025-11-28 03:00:34 +0000",
       "minecraft:cow": "2025-10-07 23:45:17 +0000",
       "minecraft:goat": "2025-11-26 01:29:02 +0000",
@@ -6493,12 +6495,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/combat/turtle_helmet": {
-    "criteria": {
-      "has_turtle_scute": "2026-05-06 01:28:56 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/misc/flow_armor_trim_smithing_template": {
     "criteria": {
       "has_flow_armor_trim_smithing_template": "2026-05-06 01:23:56 +0000"
@@ -6508,6 +6504,18 @@
   "minecraft:recipes/misc/flow_armor_trim_smithing_template_smithing_trim": {
     "criteria": {
       "has_smithing_trim_template": "2026-05-06 01:23:56 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/turtle_helmet": {
+    "criteria": {
+      "has_turtle_scute": "2026-05-06 01:28:56 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/all_potions": {
+    "criteria": {
+      "all_effects": "2026-05-06 03:55:07 +0000"
     },
     "done": true
   },
