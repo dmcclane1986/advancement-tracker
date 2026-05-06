@@ -2002,11 +2002,13 @@
   "minecraft:husbandry/bred_all_animals": {
     "criteria": {
       "minecraft:cat": "2026-05-06 01:10:52 +0000",
+      "minecraft:donkey": "2026-05-06 01:50:18 +0000",
       "minecraft:pig": "2025-10-08 02:40:49 +0000",
       "minecraft:llama": "2025-11-28 03:34:53 +0000",
       "minecraft:frog": "2025-11-24 03:36:12 +0000",
       "minecraft:turtle": "2025-11-26 02:27:27 +0000",
       "minecraft:sheep": "2025-11-25 01:14:42 +0000",
+      "minecraft:mule": "2026-05-06 01:51:51 +0000",
       "minecraft:mooshroom": "2025-11-28 03:00:52 +0000",
       "minecraft:cow": "2025-10-09 13:34:34 +0000",
       "minecraft:goat": "2025-11-26 01:19:51 +0000",
