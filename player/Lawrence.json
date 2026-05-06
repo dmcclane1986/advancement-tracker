@@ -6473,12 +6473,6 @@
     },
     "done": true
   },
-  "minecraft:husbandry/repair_wolf_armor": {
-    "criteria": {
-      "repair_wolf_armor": "2026-04-26 00:50:29 +0000"
-    },
-    "done": true
-  },
   "minecraft:husbandry/feed_snifflet": {
     "criteria": {
       "feed_snifflet": "2026-04-26 00:45:34 +0000"
@@ -6488,6 +6482,30 @@
   "minecraft:husbandry/plant_any_sniffer_seed": {
     "criteria": {
       "pitcher_pod": "2026-04-26 00:49:01 +0000"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/repair_wolf_armor": {
+    "criteria": {
+      "repair_wolf_armor": "2026-04-26 00:50:29 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/turtle_helmet": {
+    "criteria": {
+      "has_turtle_scute": "2026-05-06 01:28:56 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/flow_armor_trim_smithing_template": {
+    "criteria": {
+      "has_flow_armor_trim_smithing_template": "2026-05-06 01:23:56 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/flow_armor_trim_smithing_template_smithing_trim": {
+    "criteria": {
+      "has_smithing_trim_template": "2026-05-06 01:23:56 +0000"
     },
     "done": true
   },

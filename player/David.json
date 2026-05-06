@@ -2001,6 +2001,7 @@
   },
   "minecraft:husbandry/bred_all_animals": {
     "criteria": {
+      "minecraft:cat": "2026-05-06 01:10:52 +0000",
       "minecraft:pig": "2025-10-08 02:40:49 +0000",
       "minecraft:llama": "2025-11-28 03:34:53 +0000",
       "minecraft:frog": "2025-11-24 03:36:12 +0000",
@@ -2013,6 +2014,7 @@
       "minecraft:chicken": "2025-10-09 20:15:45 +0000",
       "minecraft:armadillo": "2025-11-28 03:37:58 +0000",
       "minecraft:panda": "2025-11-26 02:23:47 +0000",
+      "minecraft:horse": "2026-05-06 01:45:19 +0000",
       "minecraft:rabbit": "2025-11-26 02:42:55 +0000",
       "minecraft:bee": "2025-11-28 04:00:29 +0000"
     },
@@ -6635,7 +6637,8 @@
   },
   "minecraft:husbandry/whole_pack": {
     "criteria": {
-      "minecraft:spotted": "2025-11-28 03:31:04 +0000"
+      "minecraft:spotted": "2025-11-28 03:31:04 +0000",
+      "minecraft:pale": "2026-05-06 01:13:28 +0000"
     },
     "done": false
   },
@@ -7432,6 +7435,12 @@
   "minecraft:husbandry/plant_any_sniffer_seed": {
     "criteria": {
       "pitcher_pod": "2026-04-26 00:46:41 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/turtle_helmet": {
+    "criteria": {
+      "has_turtle_scute": "2026-05-06 01:30:46 +0000"
     },
     "done": true
   },
