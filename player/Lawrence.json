@@ -550,6 +550,7 @@
       "minecraft:turtle": "2025-11-26 02:24:39 +0000",
       "minecraft:sheep": "2025-10-07 23:45:20 +0000",
       "minecraft:mule": "2026-05-06 03:06:24 +0000",
+      "minecraft:sniffer": "2026-05-08 02:12:14 +0000",
       "minecraft:mooshroom": "2025-11-28 03:00:34 +0000",
       "minecraft:cow": "2025-10-07 23:45:17 +0000",
       "minecraft:goat": "2025-11-26 01:29:02 +0000",
@@ -5885,7 +5886,8 @@
       "minecraft:jellie": "2026-04-10 02:41:48 +0000",
       "minecraft:black": "2026-04-10 01:49:16 +0000",
       "minecraft:ragdoll": "2026-04-10 02:37:52 +0000",
-      "minecraft:british_shorthair": "2026-04-10 02:42:05 +0000"
+      "minecraft:british_shorthair": "2026-04-10 02:42:05 +0000",
+      "minecraft:red": "2026-05-08 01:42:50 +0000"
     },
     "done": false
   },
@@ -6516,6 +6518,12 @@
   "minecraft:nether/all_potions": {
     "criteria": {
       "all_effects": "2026-05-06 03:55:07 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/overoverkill": {
+    "criteria": {
+      "overoverkill": "2026-05-08 02:21:47 +0000"
     },
     "done": true
   },
