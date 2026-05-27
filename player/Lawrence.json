@@ -543,29 +543,33 @@
   },
   "minecraft:husbandry/bred_all_animals": {
     "criteria": {
-      "minecraft:cat": "2026-05-06 02:26:01 +0000",
       "minecraft:donkey": "2026-05-06 03:05:09 +0000",
+      "minecraft:mule": "2026-05-06 03:06:24 +0000",
+      "minecraft:sniffer": "2026-05-08 02:12:14 +0000",
+      "minecraft:hoglin": "2026-05-27 03:32:47 +0000",
+      "minecraft:strider": "2026-05-10 00:24:43 +0000",
+      "minecraft:cow": "2025-10-07 23:45:17 +0000",
+      "minecraft:camel": "2025-11-26 03:23:39 +0000",
+      "minecraft:horse": "2026-05-06 03:04:10 +0000",
+      "minecraft:bee": "2025-11-28 03:57:06 +0000",
+      "minecraft:cat": "2026-05-06 02:26:01 +0000",
       "minecraft:fox": "2026-05-10 00:14:42 +0000",
       "minecraft:pig": "2025-10-07 23:54:29 +0000",
       "minecraft:llama": "2025-11-28 03:26:30 +0000",
       "minecraft:turtle": "2025-11-26 02:24:39 +0000",
       "minecraft:frog": "2026-05-10 00:18:29 +0000",
       "minecraft:sheep": "2025-10-07 23:45:20 +0000",
-      "minecraft:mule": "2026-05-06 03:06:24 +0000",
-      "minecraft:sniffer": "2026-05-08 02:12:14 +0000",
       "minecraft:mooshroom": "2025-11-28 03:00:34 +0000",
-      "minecraft:strider": "2026-05-10 00:24:43 +0000",
-      "minecraft:cow": "2025-10-07 23:45:17 +0000",
+      "minecraft:ocelot": "2026-05-27 03:24:58 +0000",
       "minecraft:goat": "2025-11-26 01:29:02 +0000",
-      "minecraft:camel": "2025-11-26 03:23:39 +0000",
       "minecraft:chicken": "2025-10-07 23:54:17 +0000",
       "minecraft:armadillo": "2025-11-28 03:34:13 +0000",
+      "minecraft:wolf": "2026-05-27 03:01:43 +0000",
       "minecraft:panda": "2025-11-26 02:06:08 +0000",
-      "minecraft:horse": "2026-05-06 03:04:10 +0000",
       "minecraft:rabbit": "2025-11-26 02:41:56 +0000",
-      "minecraft:bee": "2025-11-28 03:57:06 +0000"
+      "minecraft:axolotl": "2026-05-27 03:08:15 +0000"
     },
-    "done": false
+    "done": true
   },
   "minecraft:recipes/building_blocks/mossy_cobblestone_stairs_from_mossy_cobblestone_stonecutting": {
     "criteria": {
@@ -5887,12 +5891,14 @@
       "minecraft:calico": "2026-04-10 01:43:19 +0000",
       "minecraft:siamese": "2025-12-25 04:05:32 +0000",
       "minecraft:jellie": "2026-04-10 02:41:48 +0000",
+      "minecraft:persian": "2026-05-27 00:51:17 +0000",
       "minecraft:black": "2026-04-10 01:49:16 +0000",
       "minecraft:ragdoll": "2026-04-10 02:37:52 +0000",
+      "minecraft:all_black": "2026-05-27 01:43:56 +0000",
       "minecraft:british_shorthair": "2026-04-10 02:42:05 +0000",
       "minecraft:red": "2026-05-08 01:42:50 +0000"
     },
-    "done": false
+    "done": true
   },
   "minecraft:adventure/lightning_rod_with_villager_no_fire": {
     "criteria": {
@@ -6533,6 +6539,120 @@
   "minecraft:adventure/very_very_frightening": {
     "criteria": {
       "struck_villager": "2026-05-09 23:26:58 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/light_gray_glazed_terracotta": {
+    "criteria": {
+      "has_light_gray_terracotta": "2026-05-27 00:04:44 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mud_brick_slab_from_mud_bricks_stonecutting": {
+    "criteria": {
+      "has_mud_bricks": "2026-05-27 00:09:45 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/red_glazed_terracotta": {
+    "criteria": {
+      "has_red_terracotta": "2026-05-27 00:04:46 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/wayfinder_armor_trim_smithing_template": {
+    "criteria": {
+      "has_wayfinder_armor_trim_smithing_template": "2026-05-27 00:41:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/mud_brick_wall": {
+    "criteria": {
+      "has_mud_bricks": "2026-05-27 00:09:45 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/rib_armor_trim_smithing_template_smithing_trim": {
+    "criteria": {
+      "has_smithing_trim_template": "2026-05-27 00:55:57 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mud_brick_stairs_from_mud_bricks_stonecutting": {
+    "criteria": {
+      "has_mud_bricks": "2026-05-27 00:09:45 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/shaper_armor_trim_smithing_template_smithing_trim": {
+    "criteria": {
+      "has_smithing_trim_template": "2026-05-27 00:29:05 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/wayfinder_armor_trim_smithing_template_smithing_trim": {
+    "criteria": {
+      "has_smithing_trim_template": "2026-05-27 00:41:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/host_armor_trim_smithing_template_smithing_trim": {
+    "criteria": {
+      "has_smithing_trim_template": "2026-05-27 00:07:20 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/gray_glazed_terracotta": {
+    "criteria": {
+      "has_gray_terracotta": "2026-05-27 00:06:08 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/shaper_armor_trim_smithing_template": {
+    "criteria": {
+      "has_shaper_armor_trim_smithing_template": "2026-05-27 00:29:05 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mud_brick_slab": {
+    "criteria": {
+      "has_mud_bricks": "2026-05-27 00:09:45 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/host_armor_trim_smithing_template": {
+    "criteria": {
+      "has_host_armor_trim_smithing_template": "2026-05-27 00:07:20 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/cyan_glazed_terracotta": {
+    "criteria": {
+      "has_cyan_terracotta": "2026-05-27 00:09:36 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mud_brick_stairs": {
+    "criteria": {
+      "has_mud_bricks": "2026-05-27 00:09:45 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/mud_brick_wall_from_mud_bricks_stonecutting": {
+    "criteria": {
+      "has_mud_bricks": "2026-05-27 00:09:45 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mud_bricks": {
+    "criteria": {
+      "has_packed_mud": "2026-05-27 00:16:22 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/rib_armor_trim_smithing_template": {
+    "criteria": {
+      "has_rib_armor_trim_smithing_template": "2026-05-27 00:55:57 +0000"
     },
     "done": true
   },
