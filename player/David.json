@@ -6649,13 +6649,14 @@
       "minecraft:spotted": "2025-11-28 03:31:04 +0000",
       "minecraft:rusty": "2026-06-05 02:32:26 +0000",
       "minecraft:chestnut": "2026-06-05 02:56:34 +0000",
+      "minecraft:striped": "2026-07-01 00:27:56 +0000",
       "minecraft:pale": "2026-05-06 01:13:28 +0000",
       "minecraft:woods": "2026-05-08 02:35:46 +0000",
       "minecraft:black": "2026-06-05 01:27:05 +0000",
       "minecraft:ashen": "2026-06-05 01:42:29 +0000",
       "minecraft:snowy": "2026-05-31 01:09:15 +0000"
     },
-    "done": false
+    "done": true
   },
   "minecraft:recipes/combat/wolf_armor": {
     "criteria": {
